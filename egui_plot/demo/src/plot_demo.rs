@@ -125,7 +125,7 @@ impl PlotDemo {
                 .with_accessibility_parent(container_response.id, || {
                     ui.selectable_value(&mut self.open_panel, Panel::Lines, "Lines");
                     ui.selectable_value(&mut self.open_panel, Panel::Markers, "Markers");
-                    ui.selectable_value(&mut self.open_panel, Panel::Legend, "Legend");
+                    //ui.selectable_value(&mut self.open_panel, Panel::Legend, "Legend");
                     ui.selectable_value(&mut self.open_panel, Panel::Charts, "Charts");
                     ui.selectable_value(&mut self.open_panel, Panel::Items, "Items");
                     ui.selectable_value(&mut self.open_panel, Panel::Interaction, "Interaction");
