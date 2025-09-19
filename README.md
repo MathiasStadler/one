@@ -1,5 +1,7 @@
 # Original - compare the changes repo second [![alt text][1]](https://github.com/MathiasStadler/second)
 <!-- keep the format -->
+for simplified examples
+
 change folder to **cd egui_plot/demo**
 trunk serve --port 8090
 
@@ -7,7 +9,7 @@ cd ~/workspace_codium/one/egui_plot/demo
 export RUSTC_WRAPPER=sccache
 RUST_LOG=trace trunk serve
 
-// wrong RUST_LOG=info trunk serve --port 9080
+// wrong RUST_LOG=info trunk serve --port 9083
 
 RUST_LOG=info trunk serve --port 8080
 <!-- keep the format -->
